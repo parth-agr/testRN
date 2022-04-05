@@ -1,7 +1,14 @@
 import React from 'react';
+import {View, Platform, NativeEventEmitter} from 'react-native';
 import {TeachstackModuleView} from 'react-native-teachstack-module';
 
 const App = () => {
+  if (Platform.OS == 'android') {
+    const eventEmitter = new NativeEventEmitter();
+    eventEmitter.addListener('Callbacks', event => {
+      console.log('Callback event: ' + event.eventProperty);
+    });
+  }
 
   return (
     <View>
