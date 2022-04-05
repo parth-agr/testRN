@@ -11,11 +11,15 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url = "https://plugins.gradle.org/m2/"
+        }
     }
     dependencies {
         classpath("com.android.tools.build:gradle:7.0.4")
         classpath("com.facebook.react:react-native-gradle-plugin")
         classpath("de.undercouch:gradle-download-task:4.1.2")
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -23,6 +27,9 @@ buildscript {
 
 allprojects {
     repositories {
+        maven {
+            url "https://asia-south1-maven.pkg.dev/excellent-math-274709/android-sdk-vc"
+        }
         maven {
             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
             url("$rootDir/../node_modules/react-native/android")
@@ -40,5 +47,6 @@ allprojects {
         }
         google()
         maven { url 'https://www.jitpack.io' }
+        jcenter()
     }
 }
