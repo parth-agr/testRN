@@ -5555,10 +5555,10 @@
   dependencies:
     "react-native-codegen" "*"
 
-"react-native-teachstack-module@^0.1.1":
-  "integrity" "sha512-Qg27i4uGF5fxEC2oIFMWH+lTxOPuUO+qnKWYaLKlXh4tBIUQGhvjjBBr7E0AcwUh+rA80QgXTldfI/ZXKeZVBw=="
-  "resolved" "https://registry.npmjs.org/react-native-teachstack-module/-/react-native-teachstack-module-0.1.1.tgz"
-  "version" "0.1.1"
+"react-native-teachstack-module@^0.1.2":
+  "integrity" "sha512-TinrodiIzMcO/8SF4xbWTAke64jWZOmIsWzZ+DFAyHUBYpnOjauzBEINGrAsW1xC0beGpSpTNjpTENjoilThOQ=="
+  "resolved" "https://registry.npmjs.org/react-native-teachstack-module/-/react-native-teachstack-module-0.1.2.tgz"
+  "version" "0.1.2"
 
 "react-native@*", "react-native@0.68.0":
   "integrity" "sha512-Qi8KpG9rqiU0hVp05GKkuRe8iAVhblYMwpnwG3wkBi99Z/X8iZ0jD1b1UW0/y6oesmCyGQAxpsB36imU8zg1AQ=="
