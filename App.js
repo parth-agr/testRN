@@ -13,7 +13,7 @@ const App = () => {
   return (
     <View>
       <TeachstackModuleView
-        url="https://video.teachmint.com/videoroom/videodemo::rn_test/test2/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb29tX2lkIjoidmlkZW9kZW1vOjpybl90ZXN0IiwidWlkIjoidGVzdDIiLCJ1bmFtZSI6InRlc3QyIiwidXR5cGUiOjIsImV4cCI6MTY0OTcwMzE4OH0.OF7UqPRL3_oQAUiuEfATj6rW3j5PFREDSKilGsoC5aQ"
+        url="https://video.teachmint.com/videoroom/teachmint::693479183/6194d019deddfeef8eebdc05/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb29tX2lkIjoidGVhY2htaW50Ojo2OTM0NzkxODMiLCJ1aWQiOiI2MTk0ZDAxOWRlZGRmZWVmOGVlYmRjMDUiLCJ1bmFtZSI6InJhbmRvbSIsInV0eXBlIjoxLCJleHAiOjE2NDk4MjAzNTJ9.VkiNxU3ITuUHEUL5PIZJd5hmzysRQH7N95ZU4BUjhko"
         style={{
           width: Dimensions.get('window').width,
           height: Dimensions.get('window').height,
