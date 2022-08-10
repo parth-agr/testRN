@@ -12,7 +12,7 @@ const App = () => {
 
   let data = {};
   data['url'] =
-    'https://video.teachmint.com/videoroom/videodemo::parthTest/studentId2/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb29tX2lkIjoidmlkZW9kZW1vOjpwYXJ0aFRlc3QiLCJ1aWQiOiJzdHVkZW50SWQyIiwidW5hbWUiOiJBbGV4IER1bnBoeSIsInV0eXBlIjoyLCJleHAiOjE2NTY2NDU4Mzd9.UPzX29PRO2X9H1AhqOf3itxm6KOQyC1XxClXDL_4p7k';
+    'https://video.teachmint.com/videoroom/videodemo::ModernFamily/phil/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyb29tX2lkIjoidmlkZW9kZW1vOjpNb2Rlcm5GYW1pbHkiLCJ1aWQiOiJwaGlsIiwidW5hbWUiOiJQaGlsIER1bnBoeSIsInV0eXBlIjoxLCJleHAiOjE2NjAxOTc4MDV9.1ZZTY1oBXqoeO4qhji9dJ09VgUjivBZZw8003-e2620';
   data['appGroup'] = 'group.teachmint.ios.app.appgroup';
   return (
     <View>
